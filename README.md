@@ -7,11 +7,11 @@ Trying out coffeescript, made a simple todo list
 new TodoList(
    # init with existing collection
    [   
-      todoObj = {
+      {
          id: Math.random()
          value: 'Buy milk'
       },
-      todoObj = {
+      {
          id: Math.random()
          value: 'Feed dog'
       },      
