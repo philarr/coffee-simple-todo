@@ -8,11 +8,11 @@ new TodoList(
    # init with existing collection
    [   
       {
-         id: Math.random()
+         id: Math.random().toString()
          value: 'Buy milk'
       },
       {
-         id: Math.random()
+         id: Math.random().toString()
          value: 'Feed dog'
       },      
    ],
